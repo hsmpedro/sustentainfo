@@ -1,6 +1,6 @@
 Versão em português:
 <br>
-Sustenta Info é um projeto para a criação de um site e futuramente um aplicativo, sobre descarte correto de lixos e resíduos
+Sustenta Info é um projeto para a criação de um site e, futuramente, um aplicativo sobre descarte correto de lixos e resíduos
 <br>
 © Todos os direitos reservados
 
