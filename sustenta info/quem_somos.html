@@ -2,27 +2,31 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <script src="https://cdn.tailwindcss.com"></script> <!--biblioteca de estilo tailwinds-->
-    <link rel="stylesheet" href=""> <!--link para o css (decidi não usar css separado, vou usar a bib TailWinds por cdn, que vai direto no html)-->
-    <title>Sustenta Info</title> <!--titulo que aparece na aba do navegador-->
-    <favicon href="fav.ico" sizes="16x16"> <!--icone que aparece na aba do navegador-->
+    <link rel="stylesheet" href="style.css">
+    <title>Sustenta Info</title>
+    <link rel="icon" href="fav.ico" sizes="16x16">
 </head>
-<body class="bg-gray-100 min-h-screen flex flex-col">
+<body class="body-bg">
+
     <header>
-        <div class="text-right px-4 pt-4 pb-2">
-            <a href="projeto.html" class="inline-block bg-emerald-600 px-4 py-4 rounded-lg text-white font-semibold hover:bg-emerald-700 transition duration-300">Voltar para a página inicial</a>
+        <div class="header-btn-container">
+            <a href="projeto.html" class="btn-principal">Voltar para a página inicial</a>
         </div>
     </header>
 
-    <main class="max-w-4xl w-full mx-auto px-4 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold text-emerald-600">Sustenta Info</h1>
-        <p class="text-lg text-gray-600 mt-2">Seu guia de descarte consciente!</p>
-        <p class="">Nós somos a primeira turma de Técnico em Administração do Senac Santo Ângelo e como projeto do (nome evento), resolvemos fazer o (nome do projeto),
-            um projeto voltado a separação correta de lixos e resíduos, promovendo a sustentabilidade e a responsabilidade ambiental!
+    <main class="quem-somos-container">
+        <h1 class="titulo">Sustenta Info</h1>
+        <p class="subtitulo">Seu guia de descarte consciente!</p>
+        <p>
+            Nós somos a primeira turma de Técnico em Administração do Senac Santo Ângelo e como projeto do (nome evento), 
+            resolvemos fazer o Sustenta Info, um projeto voltado à separação correta de lixos e resíduos, 
+            promovendo a sustentabilidade e a responsabilidade ambiental.
         </p>
     </main>
-    <footer class="mx-auto mt-auto">
-        <p class="text-gray-500 text-center mt-12 border-t pt-6 pb-6">© Projeto desenvolvido pelos alunos do curso Técnico em Administração.<br>SENAC Santo Ângelo - 2025</p>
+
+    <footer class="footer">
+        <p>© Projeto desenvolvido pelos alunos do curso Técnico em Administração.<br>SENAC Santo Ângelo - 2025</p>
     </footer>
+
 </body>
 </html>
