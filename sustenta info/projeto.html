@@ -7,11 +7,10 @@
     <link rel="icon" href="fav.ico" sizes="16x16">
 </head>
 
-<body class="body-bg">
-    
+<body>
     <header>
         <div class="header-btn-container">
-            <a href="quem_somos.html" class="btn-principal">Mais sobre nós</a>
+            <a href="quem_somos.html" class="btn-others">Mais sobre nós</a>
         </div>
     </header>
 
@@ -24,15 +23,14 @@
             <div class="busca-container">
                 <input 
                     type="text"
-                    placeholder="Ex: lâmpada, pilha, óleo de cozinha..."
+                    placeholder="Ex: lâmpadas, Pilhas e Baterias, Óleo de Cozinha..."
                     class="input-busca"
                 >
-                <button class="btn-principal">Buscar</button>
             </div>
         </div>
 
         <div class="categorias-container">
-            <h1 class="categorias-titulo">Procure por categorias</h1>
+            <h1 class="categorias-titulo">Categorias</h1>
 
             <div class="grid-categorias">
                 <div class="categoria-card">
@@ -75,6 +73,7 @@
                     <h3 class="categoria-nome">Vidros</h3>
                 </div>
             </div>
+             <h2 id="mensagemErroCategoria" class="mensagem-erro-categorias">Nenhuma categoria encontrada</h2>
         </div>
         <div class="dica-container">
             <p class="dica-texto"><strong>Dica extra:</strong> Reduza o consumo de<br>plástico de uso único! Leve sua<br>própria sacola de compras, canudo<br>reutilizável e copo para diminuir o<br>impacto ambiental.</p>
@@ -84,6 +83,6 @@
     <footer class="footer">
         <p>© Projeto desenvolvido pelos alunos do curso Técnico em Administração.<br>SENAC Santo Ângelo - 2025</p>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
