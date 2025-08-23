@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Sustenta Info</title>
     <link rel="icon" href="logo.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -17,11 +18,14 @@
 
     <main>    
         <div class="main-container">
-            <h1 class="titulo">Sustenta Info</h1>
+            <div class="titulo-container">
+                <h1 class="titulo">Sustenta Info</h1>
+                <img class="logo" src="logo/logo.png" alt="logo sustenta info">
+            </div>
             <p class="subtitulo">Seu guia de descarte consciente!</p>  
-            <p class="pergunta">O que você deseja descartar?</p>
 
             <div class="busca-container">
+                <p class="pergunta">O que você deseja descartar?</p>
                 <input 
                     type="text"
                     placeholder="Ex: lâmpadas, Pilhas e Baterias, Óleo de Cozinha..."
@@ -146,9 +150,9 @@
                     <h3 class="categoria-nome">Vidros</h3>
                     
                     <div class="categoria-info">
-                        <h4 class="info-nome">Ecos do Verde</h4>
-                        <p class="info-endereco">R. São João Batista, 764 - Oliveira, Santo Ângelo - RS, 98801-240</p>
-                        <a class="info-maps" href="https://maps.app.goo.gl/CPwS5Q7bLiher2bD7" target="_blank">
+                        <h4 class="info-nome">Vidraçaria Central</h4>
+                        <p class="info-endereco">Rua Marquês do Herval, 987 - Santo Ângelo, RS</p>
+                        <a class="info-maps" href="https://www.google.com/maps?q=Rua+Marquês+do+Herval,+987,+Santo+Ângelo,+RS" target="_blank">
                             Ver no Google Maps
                         </a>
                     </div>
@@ -158,17 +162,14 @@
             <div id="janela" class="janela">
                 <div class="janela-content">
                     <span id="fechar" class="fechar">&times;</span>
-                    <div id="janela-info"></div> <!-- Aqui vão todas as farmácias/endereço -->
+                    <div id="janela-info"></div>
                 </div>
             </div>
 
              <h2 id="mensagemErroCategoria" class="mensagem-erro-categorias">Nenhuma categoria encontrada</h2>
         </div>
         
-        <div class="logo-container">
-            <img class="logo" src="logo/logo.png" alt="logo sustenta info">
-        </div>
-            <div class="dica-container">
+        <div class="dica-container">
             <p><strong>Dica extra:</strong> Reduza o consumo de<br>plástico de uso único! Leve sua<br>própria sacola de compras, canudo<br>reutilizável e copo para diminuir o<br>impacto ambiental.</p>
         </div>
         <div class="contato-container">
@@ -185,4 +186,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
