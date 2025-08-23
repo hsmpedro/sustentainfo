@@ -34,12 +34,12 @@ function abrirInformacoes(card) {
     const janela = document.getElementById('janela');
     const janelaContent = janela.querySelector('.janela-content');
 
-    // Limpa o conteúdo antigo antes de criar os novos blocos
+    // limpa o conteúdo antigo antes de criar os novos blocos
     janelaContent.innerHTML = `
         <span id="fechar" class="fechar">&times;</span>
     `;
 
-    // Pega todos os nomes, endereços e links do card
+    // pega todos os nomes, endereços e links do card
     const nomes = card.querySelectorAll('.info-nome');
     const enderecos = card.querySelectorAll('.info-endereco');
     const links = card.querySelectorAll('.info-maps');
