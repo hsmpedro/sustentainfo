@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     -webkit-tap-highlight-color: transparent;
-    -webkit-focus-ring-color: transparent;
-    outline: none;
 }
 
 body{
@@ -302,5 +300,6 @@ body{
     }
 
 }
+
 
 
