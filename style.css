@@ -275,6 +275,10 @@ body{
     padding: 24px 0;
 }
 
+a, button, input {
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* TELAS MÉDIAS (tablets)   */
 @media (max-width: 992px) {
 
