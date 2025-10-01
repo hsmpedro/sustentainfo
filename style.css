@@ -275,7 +275,7 @@ body{
     padding: 24px 0;
 }
 
-a, button, input {
+a, button, input, [role="button"], [onclick] {
   -webkit-tap-highlight-color: transparent;
 }
 
